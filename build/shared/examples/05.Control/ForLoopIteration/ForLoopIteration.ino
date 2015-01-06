@@ -17,6 +17,8 @@ This example code is in the public domain.
  http://www.arduino.cc/en/Tutorial/ForLoop
  */
 
+#include "Arduino.h"
+
 int timer = 100;           // The higher the number, the slower the timing.
 
 void setup() {

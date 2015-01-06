@@ -22,6 +22,9 @@
  This example code is part of the public domain
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 const int greenLEDPin = 9;    // LED connected to digital pin 9
 const int redLEDPin = 10;     // LED connected to digital pin 10
 const int blueLEDPin = 11;    // LED connected to digital pin 11

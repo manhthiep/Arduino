@@ -18,6 +18,8 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
 
 void setup() {
   // initialize both serial ports:

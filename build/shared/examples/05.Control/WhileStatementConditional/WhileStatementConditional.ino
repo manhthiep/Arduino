@@ -26,6 +26,7 @@
 
  */
 
+#include "Arduino.h"
 
 // These constants won't change:
 const int sensorPin = A2;       // pin that the sensor is attached to

@@ -19,6 +19,9 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // These constants won't change.  They're used to give names
 // to the pins used:
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to

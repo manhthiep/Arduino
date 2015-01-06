@@ -33,6 +33,7 @@
  see also http://www.tigoe.net/pcomp/code/category/arduinowiring/514 for more
  */
 
+#include "Arduino.h"
 
 // 2-dimensional array of row pin numbers:
 const int row[8] = {

@@ -25,6 +25,9 @@ http://arduino.cc/en/Tutorial/IfStatement
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // These constants won't change:
 const int analogPin = A0;    // pin that the sensor is attached to
 const int ledPin = 13;       // pin that the LED is attached to

@@ -21,6 +21,8 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
 
 // these constants won't change:
 const int ledPin = 13;      // led connected to digital pin 13

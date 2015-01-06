@@ -26,6 +26,9 @@
  This example code is part of the public domain
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // import the library
 #include <Servo.h>
 // create an instance of the servo library

@@ -22,6 +22,9 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 void setup() {
   //  Set MIDI baud rate:
   Serial.begin(31250);

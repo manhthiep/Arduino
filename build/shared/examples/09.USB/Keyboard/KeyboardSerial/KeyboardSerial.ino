@@ -19,6 +19,10 @@
  http://www.arduino.cc/en/Tutorial/KeyboardSerial
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+#include "USBAPI.h"
+
 void setup() {
   // open the serial port:
   Serial.begin(9600);

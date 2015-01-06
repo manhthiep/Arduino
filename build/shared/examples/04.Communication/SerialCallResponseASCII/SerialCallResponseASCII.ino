@@ -28,6 +28,9 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 int firstSensor = 0;    // first analog sensor
 int secondSensor = 0;   // second analog sensor
 int thirdSensor = 0;    // digital sensor

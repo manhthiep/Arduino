@@ -15,6 +15,9 @@ This example code is in the public domain.
  http://arduino.cc/en/Tutorial/Tone
 
  */
+
+#include "Arduino.h"
+#include "Tone.h"
 #include "pitches.h"
 
 // notes in the melody:

@@ -12,6 +12,9 @@
  This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 String txtMsg = "";                         // a string for incoming text
 int lastStringLength = txtMsg.length();     // previous length of the String
 

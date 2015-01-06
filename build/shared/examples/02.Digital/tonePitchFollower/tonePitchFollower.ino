@@ -18,6 +18,9 @@ This example code is in the public domain.
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+#include "Tone.h"
 
 void setup() {
   // initialize serial communications (for debugging only):

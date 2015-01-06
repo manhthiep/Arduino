@@ -18,6 +18,8 @@
  This example code is part of the public domain
  */
 
+#include "Arduino.h"
+
 const int optoPin = 2; // the pin the optocoupler is connected to
 
 void setup() {

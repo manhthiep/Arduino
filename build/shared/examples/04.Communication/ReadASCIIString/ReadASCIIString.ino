@@ -17,6 +17,9 @@
  This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // pins for the LEDs:
 const int redPin = 3;
 const int greenPin = 5;

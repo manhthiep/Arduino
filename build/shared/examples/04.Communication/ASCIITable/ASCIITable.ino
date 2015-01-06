@@ -19,6 +19,10 @@
  <http://www.zambetti.com>
 
  */
+ 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 void setup() {
   //Initialize serial and wait for port to open:
   Serial.begin(9600);

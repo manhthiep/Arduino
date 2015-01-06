@@ -20,6 +20,9 @@ This example code is in the public domain.
  http://www.arduino.cc/en/Tutorial/SwitchCase2
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 void setup() {
   // initialize serial communication:
   Serial.begin(9600);

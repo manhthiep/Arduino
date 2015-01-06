@@ -6,6 +6,9 @@
  This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:

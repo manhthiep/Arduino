@@ -20,6 +20,10 @@
  This example code is part of the public domain
 */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+#include "Tone.h"
+
 // create an array of notes
 // the numbers below correspond to
 // the frequencies of middle C, D, E, and F

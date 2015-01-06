@@ -21,6 +21,9 @@
 
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 void setup() {
   //start serial connection
   Serial.begin(9600);

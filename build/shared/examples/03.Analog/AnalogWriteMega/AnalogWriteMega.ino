@@ -13,6 +13,9 @@
   This example code is in the public domain.
 
  */
+ 
+#include "Arduino.h"
+
 // These constants won't change.  They're used to give names
 // to the pins used:
 const int lowestPin = 2;

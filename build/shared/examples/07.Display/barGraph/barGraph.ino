@@ -20,6 +20,7 @@
  http://www.arduino.cc/en/Tutorial/BarGraph
  */
 
+#include "Arduino.h"
 
 // these constants won't change:
 const int analogPin = A0;   // the pin that the potentiometer is attached to

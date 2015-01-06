@@ -26,6 +26,8 @@
 
  */
 
+#include "Arduino.h"
+
 // These constants won't change:
 const int sensorPin = A0;    // pin that the sensor is attached to
 const int ledPin = 9;        // pin that the LED is attached to

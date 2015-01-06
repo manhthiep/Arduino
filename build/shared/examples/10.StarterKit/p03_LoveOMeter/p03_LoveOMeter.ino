@@ -18,6 +18,9 @@
  This example code is part of the public domain
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 // named constant for the pin the sensor is connected to
 const int sensorPin = A0;
 // room temperature in Celcius

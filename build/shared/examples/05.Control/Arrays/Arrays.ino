@@ -21,6 +21,8 @@ This example code is in the public domain.
  http://www.arduino.cc/en/Tutorial/Array
  */
 
+#include "Arduino.h"
+
 int timer = 100;           // The higher the number, the slower the timing.
 int ledPins[] = {
   2, 7, 4, 6, 5, 3

@@ -16,6 +16,9 @@
   This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 const int redPin = A0;		// sensor to control red color
 const int greenPin = A1;	// sensor to control green color
 const int bluePin = A2;		// sensor to control blue color

@@ -18,6 +18,9 @@
  This example code is part of the public domain
 */
 
+#include "Arduino.h"
+#include "Tone.h"
+
 // variable to hold sensor value
 int sensorValue;
 // variable to calibrate low value

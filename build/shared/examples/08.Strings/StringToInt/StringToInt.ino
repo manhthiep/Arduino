@@ -13,6 +13,9 @@
  This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 String inString = "";    // string to hold input
 
 void setup() {

@@ -22,6 +22,8 @@
  This example code is part of the public domain
  */
 
+#include "Arduino.h"
+
 const int controlPin1 = 2; // connected to pin 7 on the H-bridge
 const int controlPin2 = 3; // connected to pin 2 on the H-bridge
 const int enablePin = 9;   // connected to pin 1 on the H-bridge

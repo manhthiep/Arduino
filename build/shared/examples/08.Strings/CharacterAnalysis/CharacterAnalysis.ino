@@ -11,6 +11,9 @@
  This example code is in the public domain.
  */
 
+#include "Arduino.h"
+#include "HardwareSerial.h"
+
 void setup() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
