@@ -23,6 +23,8 @@
 String inputString = "";         // a string to hold incoming data
 boolean stringComplete = false;  // whether the string is complete
 
+void serialEvent();
+
 void setup() {
   // initialize serial:
   Serial.begin(9600);
@@ -38,6 +40,7 @@ void loop() {
     inputString = "";
     stringComplete = false;
   }
+  serialEvent();
 }
 
 /*
