@@ -6,9 +6,63 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+USBAPI	KEYWORD1
+USBDevice	KEYWORD1
+Mouse	KEYWORD1
+Keyboard	KEYWORD1
+Serial	KEYWORD1
+Setup	KEYWORD1
+u8	KEYWORD1
+u16	KEYWORD1
+u32	KEYWORD1
+KeyReport	KEYWORD1
+
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+
+configured	KEYWORD2
+attach	KEYWORD2
+detach	KEYWORD2
+poll	KEYWORD2
+
+begin	KEYWORD2
+end	KEYWORD2
+available	KEYWORD2
+peek	KEYWORD2
+read	KEYWORD2
+flush	KEYWORD2
+write	KEYWORD2
+
+click	KEYWORD2
+move	KEYWORD2
+press	KEYWORD2
+release	KEYWORD2
+isPressed	KEYWORD2
+
+releaseAll	KEYWORD2
+
+HID_GetInterface	KEYWORD2
+HID_GetDescriptor	KEYWORD2
+HID_Setup	KEYWORD2
+HID_SendReport	KEYWORD2
+
+MSC_GetInterface	KEYWORD2
+MSC_GetDescriptor	KEYWORD2
+MSC_Setup	KEYWORD2
+MSC_Data	KEYWORD2
+
+CDC_GetInterface	KEYWORD2
+CDC_GetDescriptor	KEYWORD2
+CDC_Setup	KEYWORD2
+
+USB_SendControl	KEYWORD2
+USB_RecvControl	KEYWORD2
+USB_Available	KEYWORD2
+USB_Send	KEYWORD2
+USB_Recv	KEYWORD2
+USB_Recv	KEYWORD2
+USB_Flush	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

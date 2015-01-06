@@ -6,6 +6,11 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+IPAddress	KEYWORD1
+Server	KEYWORD1
+Client	KEYWORD1
+UDP	KEYWORD1
+
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
