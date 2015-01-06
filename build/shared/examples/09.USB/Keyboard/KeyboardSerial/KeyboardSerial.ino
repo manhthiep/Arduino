@@ -19,9 +19,9 @@
  http://www.arduino.cc/en/Tutorial/KeyboardSerial
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
-#include "USBAPI.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
+#include <USBAPI.h>
 
 void setup() {
   // open the serial port:

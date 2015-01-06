@@ -23,8 +23,8 @@
  This example code is part of the public domain
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // import the library (must be located in the
 // Arduino/libraries directory)

@@ -20,7 +20,7 @@
  This example code is part of the public domain
 */
 
-#include "Arduino.h"
+#include <Arduino.h>
 
 // Create a global variable to hold the
 // state of the switch. This variable is persistent

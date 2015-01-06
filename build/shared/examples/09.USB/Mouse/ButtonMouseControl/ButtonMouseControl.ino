@@ -24,8 +24,8 @@
 
  */
 
-#include "Arduino.h"
-#include "USBAPI.h"
+#include <Arduino.h>
+#include <USBAPI.h>
 
 // set pin numbers for the five buttons:
 const int upButton = 2;

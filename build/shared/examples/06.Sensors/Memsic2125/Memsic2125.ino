@@ -23,8 +23,8 @@
 
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // these constants won't change:
 const int xPin = 2;		// X output of the accelerometer

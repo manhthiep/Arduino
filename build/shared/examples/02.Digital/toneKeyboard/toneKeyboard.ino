@@ -18,8 +18,8 @@ This example code is in the public domain.
 
  */
 
-#include "Arduino.h"
-#include "Tone.h"
+#include <Arduino.h>
+#include <Tone.h>
 #include "pitches.h"
 
 const int threshold = 10;    // minimum reading of the sensors that generates a note

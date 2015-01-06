@@ -5,8 +5,8 @@
  This example code is in the public domain.
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // digital pin 2 has a pushbutton attached to it. Give it a name:
 int pushButton = 2;

@@ -20,8 +20,8 @@
 
  */
  
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 void setup() {
   //Initialize serial and wait for port to open:

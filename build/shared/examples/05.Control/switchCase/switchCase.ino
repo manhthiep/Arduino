@@ -22,8 +22,8 @@
  http://www.arduino.cc/en/Tutorial/SwitchCase
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // these constants won't change. They are the
 // lowest and highest readings you get from your sensor:

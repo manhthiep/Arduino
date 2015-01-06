@@ -26,8 +26,8 @@
 
 */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // these constants describe the pins. They won't change:
 const int groundpin = 18;             // analog input pin 4 -- ground

@@ -20,8 +20,8 @@
  http://www.arduino.cc/en/Tutorial/KeyboardMessage
  */
 
-#include "Arduino.h"
-#include "USBAPI.h"
+#include <Arduino.h>
+#include <USBAPI.h>
 
 const int buttonPin = 4;          // input pin for pushbutton
 int previousButtonState = HIGH;   // for checking the state of a pushButton

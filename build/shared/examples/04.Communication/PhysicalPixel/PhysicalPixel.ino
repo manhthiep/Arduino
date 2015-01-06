@@ -23,8 +23,8 @@
  http://www.arduino.cc/en/Tutorial/PhysicalPixel
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 const int ledPin = 13; // the pin that the LED is attached to
 int incomingByte;      // a variable to read incoming serial data into

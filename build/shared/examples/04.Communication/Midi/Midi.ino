@@ -22,8 +22,10 @@
 
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
+
+void noteOn(int cmd, int pitch, int velocity);
 
 void setup() {
   //  Set MIDI baud rate:

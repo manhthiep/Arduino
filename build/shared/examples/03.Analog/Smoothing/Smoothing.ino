@@ -20,8 +20,8 @@
 
 */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // Define the number of samples to keep track of.  The higher the number,
 // the more the readings will be smoothed, but the slower the output will

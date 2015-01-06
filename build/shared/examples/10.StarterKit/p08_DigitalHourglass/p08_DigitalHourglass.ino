@@ -19,7 +19,7 @@
  This example code is part of the public domain
  */
 
-#include "Arduino.h"
+#include <Arduino.h>
 
 // named constant for the switch pin
 const int switchPin = 8;

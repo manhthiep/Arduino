@@ -16,8 +16,8 @@ This example code is in the public domain.
 
  */
 
-#include "Arduino.h"
-#include "Tone.h"
+#include <Arduino.h>
+#include <Tone.h>
 
 void setup() {
 

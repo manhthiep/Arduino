@@ -43,8 +43,8 @@
 // - The SPI functions herein were developed for the AVR910_ARD programmer
 // - More information at http://code.google.com/p/mega-isp
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 #include "pins_arduino.h"
 #define RESET     SS

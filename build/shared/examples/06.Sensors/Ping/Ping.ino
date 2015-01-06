@@ -22,8 +22,8 @@
 
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // this constant won't change.  It's the pin number
 // of the sensor's output:

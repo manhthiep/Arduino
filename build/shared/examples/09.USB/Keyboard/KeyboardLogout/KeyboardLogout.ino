@@ -25,8 +25,8 @@
  http://www.arduino.cc/en/Tutorial/KeyboardLogout
  */
 
-#include "Arduino.h"
-#include "USBAPI.h"
+#include <Arduino.h>
+#include <USBAPI.h>
 
 #define OSX 0
 #define WINDOWS 1

@@ -21,8 +21,8 @@
 
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 const int ledPin = 9;      // the pin that the LED is attached to
 

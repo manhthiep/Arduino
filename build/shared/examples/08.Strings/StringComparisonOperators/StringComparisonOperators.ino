@@ -12,8 +12,8 @@
  This example code is in the public domain.
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 String stringOne, stringTwo;
 

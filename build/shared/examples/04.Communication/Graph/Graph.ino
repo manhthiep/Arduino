@@ -26,8 +26,8 @@
  http://www.arduino.cc/en/Tutorial/Graph
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 void setup() {
   // initialize the serial communication:

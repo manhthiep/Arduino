@@ -6,8 +6,8 @@
  This example code is in the public domain.
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 // the setup routine runs once when you press reset:
 void setup() {

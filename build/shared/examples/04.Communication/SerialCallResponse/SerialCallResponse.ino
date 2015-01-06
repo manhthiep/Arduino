@@ -24,13 +24,15 @@
 
  */
 
-#include "Arduino.h"
-#include "HardwareSerial.h"
+#include <Arduino.h>
+#include <HardwareSerial.h>
 
 int firstSensor = 0;    // first analog sensor
 int secondSensor = 0;   // second analog sensor
 int thirdSensor = 0;    // digital sensor
 int inByte = 0;         // incoming serial byte
+
+void establishContact();
 
 void setup()
 {
