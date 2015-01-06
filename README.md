@@ -1,3 +1,10 @@
+Arduino - True C/C++
+========
+* Fork of Arduino, intend to build Arduino sketch with true C/C++ syntax.
+  * No auto #include "Arduino.h"
+  * No auto function prototypes.
+  * And more.
+
 Arduino
 ========
 
