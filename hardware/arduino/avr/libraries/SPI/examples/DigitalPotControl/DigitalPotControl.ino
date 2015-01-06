@@ -26,13 +26,14 @@
 
 */
 
-
+#include <Arduino.h>
 // inslude the SPI library:
 #include <SPI.h>
 
-
 // set pin 10 as the slave select for the digital pot:
 const int slaveSelectPin = 10;
+
+void digitalPotWrite(int address, int value);
 
 void setup() {
   // set the slaveSelectPin as an output:

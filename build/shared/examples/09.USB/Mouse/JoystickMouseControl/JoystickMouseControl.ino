@@ -50,6 +50,7 @@ int lastSwitchState = LOW;        // previous switch state
 void setup() {
   pinMode(switchPin, INPUT);       // the switch pin
   pinMode(ledPin, OUTPUT);         // the LED pin
+  USBDevice.attach();
   // take control of the mouse:
   Mouse.begin();
 }

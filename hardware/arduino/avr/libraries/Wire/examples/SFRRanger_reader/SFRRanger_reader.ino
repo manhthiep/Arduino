@@ -10,6 +10,8 @@
 // This example code is in the public domain.
 
 
+#include <Arduino.h>
+#include <HardwareSerial.h>
 #include <Wire.h>
 
 void setup()

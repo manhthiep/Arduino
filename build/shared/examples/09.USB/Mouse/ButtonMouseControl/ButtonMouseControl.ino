@@ -45,6 +45,7 @@ void setup() {
   pinMode(leftButton, INPUT);
   pinMode(rightButton, INPUT);
   pinMode(mouseButton, INPUT);
+  USBDevice.attach();
   // initialize mouse control:
   Mouse.begin();
 }

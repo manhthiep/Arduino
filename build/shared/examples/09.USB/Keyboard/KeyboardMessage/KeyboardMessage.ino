@@ -30,6 +30,7 @@ int counter = 0;                  // button push counter
 void setup() {
   // make the pushButton pin an input:
   pinMode(buttonPin, INPUT);
+  USBDevice.attach();
   // initialize control over the keyboard:
   Keyboard.begin();
 }

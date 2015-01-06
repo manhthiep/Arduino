@@ -26,6 +26,7 @@
 void setup() {
   // open the serial port:
   Serial.begin(9600);
+  USBDevice.attach();
   // initialize control over the keyboard:
   Keyboard.begin();
 }

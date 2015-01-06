@@ -34,7 +34,10 @@
 
  */
 
+#include <Arduino.h>
+#include <HardwareSerial.h>
 #include <SoftwareSerial.h>
+
 // software serial #1: TX = digital pin 10, RX = digital pin 11
 SoftwareSerial portOne(10, 11);
 

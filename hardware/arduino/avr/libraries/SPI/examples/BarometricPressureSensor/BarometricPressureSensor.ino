@@ -22,6 +22,8 @@
  by Tom Igoe
  */
 
+#include <Arduino.h>
+#include <HardwareSerial.h>
 // the sensor communicates using SPI, so include the library:
 #include <SPI.h>
 
@@ -36,6 +38,9 @@ const byte WRITE = 0b00000010;   // SCP1000's write command
 // the other you need are controlled by the SPI library):
 const int dataReadyPin = 6;
 const int chipSelectPin = 7;
+
+unsigned int readRegister(byte thisRegister, int bytesToRead);
+void writeRegister(byte thisRegister, byte thisValue);
 
 void setup() {
   Serial.begin(9600);
@@ -85,7 +90,7 @@ void loop() {
 }
 
 //Read from or write to register from the SCP1000:
-unsigned int readRegister(byte thisRegister, int bytesToRead ) {
+unsigned int readRegister(byte thisRegister, int bytesToRead) {
   byte inByte = 0;           // incoming byte from the SPI
   unsigned int result = 0;   // result to return
   Serial.print(thisRegister, BIN);

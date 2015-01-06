@@ -11,7 +11,7 @@
 
 // This example code is in the public domain.
 
-
+#include <Arduino.h>
 #include <Wire.h>
 
 void setup()

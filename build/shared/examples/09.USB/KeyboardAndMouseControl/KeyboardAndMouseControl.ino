@@ -40,6 +40,7 @@ void setup() { // initialize the buttons' inputs:
   pinMode(mouseButton, INPUT);
 
   Serial.begin(9600);
+  USBDevice.attach();
   // initialize mouse control:
   Mouse.begin();
   Keyboard.begin();

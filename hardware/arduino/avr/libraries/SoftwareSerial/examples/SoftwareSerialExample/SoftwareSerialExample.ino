@@ -25,6 +25,9 @@
  This example code is in the public domain.
 
  */
+
+#include <Arduino.h>
+#include <HardwareSerial.h>
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX, TX

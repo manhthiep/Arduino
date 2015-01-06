@@ -40,6 +40,7 @@ void setup() {
   // pullup resistor so it goes high unless
   // connected to ground:
   pinMode(2, INPUT_PULLUP);
+  USBDevice.attach();
   Keyboard.begin();
 }
 
