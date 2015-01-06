@@ -31,6 +31,7 @@ typedef unsigned short u16;
 typedef unsigned long u32;
 
 #include "Arduino.h"
+#include "Stream.h"
 
 #if defined(USBCON)
 
